@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  padding-top: 25px;
+  margin-top: -25px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#subHeader {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#fLeft {
+  float: left;
+}
+
+#fRight {
+  margin-right: 100px;
+}
+
+#list {
+  list-style-type: none;
+}
+
+#games {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: lightgray;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#size {
+  height: 300px;
+  width: 450px;
+}
