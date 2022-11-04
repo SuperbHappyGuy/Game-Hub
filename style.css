@@ -5,25 +5,31 @@ html, body {
 
 #sidebar {
   position: fixed;
-  left: 0;
-  height: 100vh;
-  width: 50px;
+  top: 50px;
+  height: 100%;
+  width: 100px;
   background-color: lightgray;
+  margin-left: -40px;
+  padding-right: 25px;
+  text-align: center;
 }
 
 #topbar {
   position: fixed;
   top: 0;
+  left: 0;
   height: 50px;
-  width: 1000vh;
+  width: 100%;
   background-color: gray;
+  text-align: left;
 }
 
 #main {
   width: 60%;
   height: 150px;
   background-color: white;
-  margin-left: 50px;
+  margin-left: 125px;
+  margin-top: 75px;
 }
 
 #size {
@@ -38,4 +44,44 @@ html, body {
 #settings {
   height: 50px;
   width: 50px;
+  margin-left: 95%;
+  float: right;
+}
+
+#sideBtn {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border-color: lightgray;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 75px;
+}
+
+#logo {
+  float: left;
+  top: 0;
+  margin-top: -45px;
+  margin-left: 15px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+#search {
+  margin-left: 25%;
+  margin-top: -45px;
+  float: left;
+  height: 60%;
+  width: 25%;
+}
+
+#login {
+  float: right;
+  margin-top: -45px;
+  margin-right: 75px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border-color: lightgray;
+  width: 80px;
 }
