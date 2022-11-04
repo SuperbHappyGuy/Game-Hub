@@ -3,43 +3,39 @@ html, body {
   width: 100%;
 }
 
-#header {
-  padding-top: 25px;
-  margin-top: -25px;
-  text-align: center;
+#sidebar {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 50px;
   background-color: lightgray;
 }
 
-#subHeader {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#topbar {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 1000vh;
+  background-color: gray;
 }
 
-#fLeft {
-  float: left;
+#main {
+  width: 60%;
+  height: 150px;
+  background-color: white;
+  margin-left: 50px;
 }
 
-#fRight {
-  margin-right: 100px;
+#size {
+  height: 300px;
+  width: 450px;
 }
 
 #list {
   list-style-type: none;
 }
 
-#main {
-  text-align: center;
-}
-
-#footer {
-  text-align: center;
-  background-color: lightgray;
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
-
-#size {
-  height: 300px;
-  width: 450px;
+#settings {
+  height: 50px;
+  width: 50px;
 }
