@@ -10,11 +10,12 @@
 
 <body>
   <script id= "logic" type="text/javascript" src="./script.js"></script>
-
+  <script id= "logic" type="text/javascript" src="./template.js"></script>
   
   <div id= "topbar">
-      <img id= "settings" src="./Imgs/images.png">
-      <h1 id= "logo">Superb Games</h1>
+      <img id= "logo" src="./Imgs/Mascot Small.png">
+      <img id= "settings" src="./Imgs/settings.jpeg">
+      <h1 id= "logoTitle">Superb Games</h1>
       <input id= "search" type="text" placeholder="Search..">
       <button id= "login"> Login / Join</button>
   </div>
@@ -23,7 +24,6 @@
         <ul id= "list">
           <li><button id= "sideBtn">Home</button></li>
           <li><button id= "sideBtn">New!</button></li>
-          <li><button id= "sideBtn"><a href="all.html">All</a></button></li>
           <li><button id= "sideBtn">Most Popular</button></li>
           <li><button id= "sideBtn">Adventure</button></li>
           <li><button id= "sideBtn">Puzzle</button></li>
@@ -39,18 +39,24 @@
     </div>
 
       <div id= "main">
+        
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;          </button>
       
-      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      
-      <img id= "size" class="mySlides" src="./Imgs/bird.jpg">
-      <img id= "size" class="mySlides" src="./Imgs/dog.jpg">
-      <img id= "size" class="mySlides" src="./Imgs/cat.jpg">
-      <img id= "size" class="mySlides" src="./Imgs/fish.jpg">
+        <img id= "size" class="mySlides" src="./Imgs/bird.jpg">
+        <img id= "size" class="mySlides" src="./Imgs/dog.jpg">
+        <img id= "size" class="mySlides" src="./Imgs/cat.jpg">
+        <img id= "size" class="mySlides" src="./Imgs/fish.jpg">
   
       <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095</button>
 
         <p>Coming soon</p>
-      <a href="https://platinumgod.co.uk/">test</a>
+
+        <ul id= "list">
+        <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
+        <li><a href= "https://rock-paper-scissor.brandonnoel1.repl.co">Rock Paper Scissors (W.I.P)</a></li>
+        <li><a href= "https://picross-game.brandonnoel1.repl.co">Picross Randomizer(W.I.P.)</a>
+        </li>
+      </ul>
       
     </div>
 </body>

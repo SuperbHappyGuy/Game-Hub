@@ -1,17 +1,24 @@
+
 html, body {
   height: 100%;
   width: 100%;
+  background-image: url("./Imgs/Stream bg2.jpeg");
+  background-size: cover;
+  
 }
+
+@media (400px <= width <= 1000px) {
 
 #sidebar {
   position: fixed;
   top: 50px;
   height: 100%;
   width: 100px;
-  background-color: lightgray;
+  background-color: lightyellow;
   margin-left: -40px;
   padding-right: 25px;
   text-align: center;
+  filter: brightness(90%);
 }
 
 #topbar {
@@ -20,14 +27,13 @@ html, body {
   left: 0;
   height: 50px;
   width: 100%;
-  background-color: gray;
+  background-color: yellow;
   text-align: left;
 }
 
 #main {
   width: 60%;
   height: 150px;
-  background-color: white;
   margin-left: 125px;
   margin-top: 75px;
 }
@@ -46,6 +52,13 @@ html, body {
   width: 50px;
   margin-left: 95%;
   float: right;
+  margin-top: -55px;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 1%;
 }
 
 #sideBtn {
@@ -57,12 +70,11 @@ html, body {
   width: 75px;
 }
 
-#logo {
+#logoTitle {
   float: left;
   top: 0;
   margin-top: -45px;
-  margin-left: 15px;
-  background-color: white;
+  margin-left: 7%;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 5px;
@@ -84,4 +96,5 @@ html, body {
   border-radius: 15px;
   border-color: lightgray;
   width: 80px;
+}
 }
