@@ -1,5 +1,6 @@
+encodeURIComponent('&')
+
 var slideIndex = 1;
-showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
@@ -17,7 +18,6 @@ function showDivs(n) {
 }
 
 var slideIndex2 = 0;
-carousel();
 
 function carousel() {
   var i;

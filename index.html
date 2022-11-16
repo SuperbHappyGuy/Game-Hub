@@ -6,59 +6,41 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <script id= "logic" type="text/javascript" src="./script.js"></script>
+  <script type= "text/javascript" src="./template.js"></script>
 </head>
 
-<body>
-  <script id= "logic" type="text/javascript" src="./script.js"></script>
-  <script id= "logic" type="text/javascript" src="./template.js"></script>
+<body onload= "navigate(this.id)">
   
   <div id= "topbar">
-      <img id= "logo" src="./Imgs/Mascot Small.png">
+      <a href= "./index.html"><img id= "logo" src="./Imgs/Mascot Small.png"></a>
       <img id= "settings" src="./Imgs/settings.jpeg">
-      <h1 id= "logoTitle">Superb Games</h1>
+      <h1 id= "logoTitle"><a href= "./index.html">Superb Games</a></h1>
       <input id= "search" type="text" placeholder="Search..">
       <button id= "login"> Login / Join</button>
   </div>
   
     <div id= "sidebar">
         <ul id= "list">
-          <li><button id= "sideBtn">Home</button></li>
-          <li><button id= "sideBtn">New!</button></li>
-          <li><button id= "sideBtn">Most Popular</button></li>
-          <li><button id= "sideBtn">Adventure</button></li>
-          <li><button id= "sideBtn">Puzzle</button></li>
-          <li><button id= "sideBtn">Action</button></li>
-          <li><button id= "sideBtn">Multiplayer</button></li>
-          <li><button id= "sideBtn">Board Game</button></li>
-          <li><button id= "sideBtn">Point & Click</button></li>
-          <li><button id= "sideBtn">Visual Novel</button></li>
-          <li><button id= "sideBtn">Arcade</button></li>
-          <li><button id= "sideBtn">Funny</button></li>
-          <li><button id= "sideBtn">Video</button></li>
+          <li><button class= "sideBtn" id= "home" onclick= "navigate(this.id)">Home</button></li>
+          <li><button class= "sideBtn" id= "adventure" onclick= "navigate(this.id)">Adventure</button></li>
+          <li><button class= "sideBtn" id= "puzzle" onclick= "navigate(this.id)">Puzzle</button></li>
+          <li><button class= "sideBtn" id= "action" onclick= "navigate(this.id)">Action</button></li>
+          <li><button class= "sideBtn" id= "multiplayer" onclick= "navigate(this.id)">Multiplayer</button></li>
+          <li><button class= "sideBtn" id= "boardGame" onclick= "navigate(this.id)">Board Game</button></li>
+          <li><button class= "sideBtn" id= "pointClick" onclick= "navigate(this.id)">Point & Click</button></li>
+          <li><button class= "sideBtn" id= "visualNovel" onclick= "navigate(this.id)">Visual Novel</button></li>
+          <li><button class= "sideBtn" id= "arcade" onclick= "navigate(this.id)">Arcade</button></li>
+          <li><button class= "sideBtn" id= "funny" onclick= "navigate(this.id)">Funny</button></li>
+          <li><button class= "sideBtn" id= "video" onclick= "navigate(this.id)">Video</button></li>
+          <li><button class= "sideBtn" id= "test" onclick= "navigate(this.id)">Test</button></li>
+          <li><button class= "sideBtn" id= "hamburger">Hamburger</button></li>
         </ul>
     </div>
 
-      <div id= "main">
-        
-        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;          </button>
-      
-        <img id= "size" class="mySlides" src="./Imgs/bird.jpg">
-        <img id= "size" class="mySlides" src="./Imgs/dog.jpg">
-        <img id= "size" class="mySlides" src="./Imgs/cat.jpg">
-        <img id= "size" class="mySlides" src="./Imgs/fish.jpg">
+  <div id= "main"></div>
   
-      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095</button>
-
-        <p>Coming soon</p>
-
-        <ul id= "list">
-        <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
-        <li><a href= "https://rock-paper-scissor.brandonnoel1.repl.co">Rock Paper Scissors (W.I.P)</a></li>
-        <li><a href= "https://picross-game.brandonnoel1.repl.co">Picross Randomizer(W.I.P.)</a>
-        </li>
-      </ul>
-      
-    </div>
 </body>
 
 </html>
