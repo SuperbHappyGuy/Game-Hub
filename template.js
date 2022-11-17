@@ -21,7 +21,9 @@ let test = `<article>
     </ul>
 </footer>`;
 
-  let mainHtml = `<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;          </button>
+  let mainHtml = `
+
+      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;          </button>
       
         <img id= "bird" class="mySlides" src="./Imgs/bird.jpg">
         <img id= "dog" class="mySlides" src="./Imgs/dog.jpg">
@@ -37,7 +39,8 @@ let test = `<article>
         <li><a href= "https://rock-paper-scissor.brandonnoel1.repl.co">Rock Paper Scissors (W.I.P)</a></li>
         <li><a href= "https://picross-game.brandonnoel1.repl.co">Picross Randomizer(W.I.P.)</a>
         </li>
-      </ul>`
+      </ul>
+      `
 
 let adventureHtml = '<p>adventure</p>'
 
