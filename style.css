@@ -120,6 +120,10 @@ a {
   display: none;
 }
 
+#hamburger {
+  display: none;
+}
+
 @media (width <= 800px) {
   #search {
     display: none;

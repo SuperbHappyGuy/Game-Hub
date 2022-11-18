@@ -36,8 +36,8 @@ let test = `<article>
 
         <ul id= "list">
         <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
-        <li><a href= "https://rock-paper-scissor.brandonnoel1.repl.co">Rock Paper Scissors (W.I.P)</a></li>
-        <li><a href= "https://picross-game.brandonnoel1.repl.co">Picross Randomizer(W.I.P.)</a>
+        <li><a href= "./Rock-Paper-Scissor/index.html">Rock Paper Scissors (W.I.P)</a></li>
+        <li><a href= "./Picross-Game/index.html">Picross Randomizer(W.I.P.)</a>
         </li>
       </ul>
       `
@@ -61,6 +61,8 @@ let arcadeHtml = '<p>arcade</p>'
 let funnyHtml = '<p>funny</p>'
 
 let videoHtml = '<iframe width="420" height="315" src= "https://www.youtube.com/embed/lsh0bxUVWNE"></iframe>'
+
+let login = '<input placeholder= "Username"> <input placeholder= "Password">'
 
 function navigate(clicked_id) {
   console.log(clicked_id);
@@ -111,6 +113,10 @@ function navigate(clicked_id) {
   if(clicked_id == "test")
   {
     x.innerHTML = test;
+  }
+  if(clicked_id == "login")
+  {
+    x.innerHTML = login;
   }
 }
 
