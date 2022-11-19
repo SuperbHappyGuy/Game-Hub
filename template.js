@@ -23,7 +23,7 @@ let test = `<article>
 
   let mainHtml = `
 
-      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;          </button>
+      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       
         <img id= "bird" class="mySlides" src="./Imgs/bird.jpg">
         <img id= "dog" class="mySlides" src="./Imgs/dog.jpg">
@@ -42,27 +42,61 @@ let test = `<article>
       </ul>
       `
 
-let adventureHtml = '<p>adventure</p>'
+let adventureHtml = `
+                      <p>adventure</p>
+                    `
 
-let puzzleHtml = '<p>puzzle</p>'
+let puzzleHtml = `
+                    <p>puzzle</p>
+                 `
 
-let actionHtml = '<p>action</p>'
+let actionHtml = `
+                    <p>action</p>
+                 `
 
-let multiplayerHtml = '<p>multiplayer</p>'
+let multiplayerHtml = `
+                        <p>multiplayer</p>
+                      `
 
-let boardGameHtml = '<p>board game</p>'
+let boardGameHtml = `
+                      <p>board game</p>
+                    `
 
-let pointClickHtml = '<p>point & click</p>'
+let pointClickHtml = `
+                        <p>point & click</p>
+                     `
 
-let visualNovelHtml = '<p>visual novel</p>'
+let visualNovelHtml = `
+                        <p>visual novel</p>
+                      `
 
-let arcadeHtml = '<p>arcade</p>'
+let arcadeHtml = `
+                    <p>arcade</p>
+                 `
 
-let funnyHtml = '<p>funny</p>'
+let funnyHtml = `
+                  <p>funny</p>
+                `
 
-let videoHtml = '<iframe width="420" height="315" src= "https://www.youtube.com/embed/lsh0bxUVWNE"></iframe>'
+let videoHtml = `
+                  <iframe width="420" height="315" src= "https://www.youtube.com/embed/lsh0bxUVWNE"></iframe>
+                `
 
-let login = '<input placeholder= "Username"> <input placeholder= "Password">'
+let login = `
+              <div>
+                <input placeholder= "Username"> 
+                <input placeholder= "Password"> 
+                <button class= "sideBtn">Login</button>
+             </div>
+
+             <div>
+                <input placeholder= "Email"> 
+                <input placeholder= "Username"> 
+                <input placeholder= "Password">
+                <input placeholder= "Confirm Password"> 
+                <button class= "sideBtn">Join</button>
+             </div>
+             `
 
 function navigate(clicked_id) {
   console.log(clicked_id);
