@@ -204,3 +204,8 @@ a {
   background-color: white;
   padding: 2px;
 }
+
+#Start {
+  height: 50px;
+  width: 50px;
+}
