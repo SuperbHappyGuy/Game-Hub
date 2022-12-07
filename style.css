@@ -159,10 +159,9 @@ a {
   #sidebar ~ #hamnav2 input:checked { display: none; }
 }
 
-.grid-container {
+#grid {
   float: left;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: rgb(33, 150, 243);
   padding: 10px;
   padding-top: 100px;
