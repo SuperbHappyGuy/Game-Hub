@@ -137,15 +137,11 @@ a {
     margin-left: 35%;
   }
 
-  #settings {
-  }
-
   #login {
     display: none;
   }
 
   #hamnav label { 
-    float: left;
     margin-top: 50px;
     display: inline-block; 
     color: yellow;
