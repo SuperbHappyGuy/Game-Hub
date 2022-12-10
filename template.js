@@ -41,11 +41,9 @@ let test = `<article>
         </li>
       </ul>
       `
-
 let adventureHtml = `
                       <p>adventure</p>
                     `
-
 let puzzleHtml = `
                     <p>puzzle</p>
                  `
@@ -53,35 +51,27 @@ let puzzleHtml = `
 let actionHtml = `
                     <p>action</p>
                  `
-
 let multiplayerHtml = `
                         <p>multiplayer</p>
                       `
-
 let boardGameHtml = `
                       <p>board game</p>
                     `
-
 let pointClickHtml = `
                         <p>point & click</p>
                      `
-
 let visualNovelHtml = `
                         <p>visual novel</p>
                       `
-
 let arcadeHtml = `
                     <p>arcade</p>
                  `
-
 let funnyHtml = `
                   <p>funny</p>
                 `
-
 let videoHtml = `
                   <iframe width="420" height="315" src= "https://www.youtube.com/embed/lsh0bxUVWNE"></iframe>
                 `
-
 let login = `
               <div>
                 <input placeholder= "Username"> 
@@ -97,7 +87,6 @@ let login = `
                 <button class= "sideBtn">Join</button>
              </div>
              `
-
 function navigate(clicked_id) {
   console.log(clicked_id);
     var x = document.getElementById("main");
@@ -153,5 +142,4 @@ function navigate(clicked_id) {
     x.innerHTML = login;
   }
 }
-
 console.log(postHtml);
