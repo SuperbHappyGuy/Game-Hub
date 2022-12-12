@@ -165,7 +165,7 @@ a {
   margin-top: 5%;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1.0);
   border: 2px solid rgba(33, 150, 243, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -202,4 +202,42 @@ a {
 #Start {
   height: 50px;
   width: 50px;
+}
+
+#marker {
+  background-color: black;
+  position: fixed;
+  margin-left: 0%;
+  bottom: 0;
+  height: 100px;
+  width: 50%;
+  z-index:99;
+}
+
+#markerText {
+  background-color: white;
+  height: 40%;
+  width: 40%;
+  margin-left: 30%;
+}
+
+#xMarker {
+  background-color: lightgray;
+  position: fixed;
+  bottom: 0;
+  margin-left: 50%;
+  height: 100px;
+  width: 50%;
+  z-index:99;
+}
+
+#xMarkerText {
+  background-color: white;
+  height: 40%;
+  width: 40%;
+  margin-left: 30%;
+}
+
+#win::after{
+  margin-left: 45%;
 }
