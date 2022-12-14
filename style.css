@@ -212,6 +212,7 @@ a {
   height: 100px;
   width: 50%;
   z-index:99;
+  display: none;
 }
 
 #markerText {
@@ -229,6 +230,7 @@ a {
   height: 100px;
   width: 50%;
   z-index:99;
+  display: none;
 }
 
 #xMarkerText {
@@ -238,6 +240,6 @@ a {
   margin-left: 30%;
 }
 
-#win::after{
+#win{
   margin-left: 45%;
 }
