@@ -158,6 +158,7 @@ a {
   float: left;
   display: grid;
   background-color: rgb(33, 150, 243);
+  grid-template-columns: 20% 20% 20% 20% 20%;
   padding: 10px;
   padding-top: 100px;
   padding-left: 60px;
