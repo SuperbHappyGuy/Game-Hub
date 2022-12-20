@@ -4,7 +4,6 @@ html, body {
   width: 100%;
   background-image: url("./Imgs/Stream bg2.jpeg");
   background-size: cover;
-  
 }
 
 a {
@@ -137,15 +136,11 @@ a {
     margin-left: 35%;
   }
 
-  #settings {
-  }
-
   #login {
     display: none;
   }
 
   #hamnav label { 
-    float: left;
     margin-top: 50px;
     display: inline-block; 
     color: yellow;
@@ -171,7 +166,7 @@ a {
   margin-top: 5%;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1.0);
   border: 2px solid rgba(33, 150, 243, 0.8);
   padding: 20px;
   font-size: 30px;

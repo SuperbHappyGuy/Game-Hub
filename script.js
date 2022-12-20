@@ -1,5 +1,3 @@
-encodeURIComponent('&')
-
 var slideIndex = 1;
 
 function plusDivs(n) {
