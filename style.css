@@ -164,6 +164,7 @@ a {
   padding-left: 60px;
   margin-left: 32%;
   margin-top: 5%;
+  margin-bottom: 30%;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 1.0);
@@ -213,7 +214,6 @@ a {
   height: 100px;
   width: 50%;
   z-index:99;
-  display: none;
 }
 
 #markerText {
@@ -231,7 +231,6 @@ a {
   height: 100px;
   width: 50%;
   z-index:99;
-  display: none;
 }
 
 #xMarkerText {
