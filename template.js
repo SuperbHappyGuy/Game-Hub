@@ -109,8 +109,7 @@ let picross = `
               <div id= "footer">
               <h5>Brandon Noel 2022</h5>
               </div>
-              <script src="./Picross-Game/script.js"></script>
-              <script src="./Picross-Game/api.js"></script>
+              
               `
             
 let rockPS = `
@@ -123,7 +122,7 @@ let rockPS = `
                 <h4>Opponent</h4>
               </div>
 
-              <script id= "logic" type="text/javascript" src="./Js/index.js"></script>
+              <script id= "logic" type="text/javascript" src="./Rock-Paper-Scissor/index.js"></script>
               <p id= "game"></p>
 
               <div>
