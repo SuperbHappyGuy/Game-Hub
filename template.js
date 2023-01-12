@@ -20,7 +20,7 @@ let test = `<article>
       ${tags.map(tag => `<li>${tag}</li>`).join('\n      ')}
     </ul>
 </footer>`;
-
+//Menu HTML
   let mainHtml = `
 
       <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
@@ -36,9 +36,8 @@ let test = `<article>
 
         <ul id= "list">
         <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
-        <li><a href= "./Rock-Paper-Scissor/index.html">Rock Paper Scissors (W.I.P)</a></li>
-        <li><a href= "./Picross-Game/index.html">Picross Randomizer(W.I.P.)</a>
-        </li>
+        <li><button id= "rockPS" onclick= "navigate(this.id)">Rock Paper Scissors (W.I.P)</button></li>
+        <li><button id= "picross" onclick= "navigate(this.id)">Picross Randomizer(W.I.P.)</button></li>
       </ul>
       `
 let adventureHtml = `
@@ -87,6 +86,55 @@ let login = `
                 <button class= "sideBtn">Join</button>
              </div>
              `
+//Game HTML
+let picross = `
+              <div id= "header">
+              <h1>Picross</h1>
+              </div>
+
+              <div>
+              <p>Coming Soon!</p>
+                Gird Size: <input id= "input" type="text" name="size">
+                <input id="btn" type="button" onclick="gridStart()" value="Submit"><br>
+              <button id= "Start" onclick= "start()">Start</button>
+              </div>
+
+              <div id="win"></div>
+
+              <button id= "marker" onclick="markerFlags()"><h1 id="markerText">Marker</h1></button>
+              <button id= "xMarker" onclick="markerFlags()"><h1 id="xMarkerText">X Marker</h1></button>
+
+              <div id="container"></div>
+
+              <div id= "footer">
+              <h5>Brandon Noel 2022</h5>
+              </div>
+              <script src="./Picross-Game/script.js"></script>
+              <script src="./Picross-Game/api.js"></script>
+              `
+            
+let rockPS = `
+              <div id= "Title">
+              <h1>Rock! Paper! Sicssors!</h1>
+              </div>
+
+              <div id= "main">
+              <div>
+                <h4>Opponent</h4>
+              </div>
+
+              <script id= "logic" type="text/javascript" src="./Js/index.js"></script>
+              <p id= "game"></p>
+
+              <div>
+                <button class= "btn" type= "button" onclick="test()" id= "rock">Rock</button>
+                <button class= "btn" onclick="test()" type= "button" id= "paper">Paper</button>
+                <button class= "btn" type = "button" onclick= "test()" id = "scissors">Sicssors</button>
+                
+                <h4>You</h4>
+              </div>
+              </div>
+              `
 function navigate(clicked_id) {
   console.log(clicked_id);
     var x = document.getElementById("main");
@@ -140,6 +188,15 @@ function navigate(clicked_id) {
   if(clicked_id == "login")
   {
     x.innerHTML = login;
+  }
+
+  if(clicked_id == "picross")
+  {
+    x.innerHTML = picross;
+  }
+  if(clicked_id == "rockPS")
+  {
+    x.innerHTML = rockPS;
   }
 }
 console.log(postHtml);
