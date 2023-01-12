@@ -7,19 +7,6 @@ let post = {
 
 let {title, excerpt, body, tags} = post;
 
-let test = `<article>
-<header>
-    <h1>${title}</h1>
-</header>
-<section>
-    <div>${excerpt}</div>
-    <div>${body}</div>
-</section>
-<footer>
-    <ul>
-      ${tags.map(tag => `<li>${tag}</li>`).join('\n      ')}
-    </ul>
-</footer>`;
 //Menu HTML
   let mainHtml = `
 
@@ -42,35 +29,38 @@ let test = `<article>
       `
 let adventureHtml = `
                       <p>adventure</p>
+                      <img id= "construction" src="./Imgs/construction.png">
                     `
 let puzzleHtml = `
                     <p>puzzle</p>
+                    <img id= "construction" src="./Imgs/construction.png">
                  `
 
 let actionHtml = `
                     <p>action</p>
+                    <img id= "construction" src="./Imgs/construction.png">
                  `
 let multiplayerHtml = `
                         <p>multiplayer</p>
+                        <img id= "construction" src="./Imgs/construction.png">
                       `
 let boardGameHtml = `
                       <p>board game</p>
+                      <img id= "construction" src="./Imgs/construction.png">
                     `
 let pointClickHtml = `
                         <p>point & click</p>
+                        <img id= "construction" src="./Imgs/construction.png">
                      `
 let visualNovelHtml = `
                         <p>visual novel</p>
+                        <img id= "construction" src="./Imgs/construction.png">
                       `
 let arcadeHtml = `
                     <p>arcade</p>
+                    <img id= "construction" src="./Imgs/construction.png">
                  `
-let funnyHtml = `
-                  <p>funny</p>
-                `
-let videoHtml = `
-                  <iframe width="420" height="315" src= "https://www.youtube.com/embed/lsh0bxUVWNE"></iframe>
-                `
+
 let login = `
               <div>
                 <input placeholder= "Username"> 
@@ -172,18 +162,7 @@ function navigate(clicked_id) {
   {
     x.innerHTML = arcadeHtml;
   }
-  if(clicked_id == "funny")
-  {
-    x.innerHTML = funnyHtml;
-  }
-  if(clicked_id == "video")
-  {
-    x.innerHTML = videoHtml;
-  }
-  if(clicked_id == "test")
-  {
-    x.innerHTML = test;
-  }
+  
   if(clicked_id == "login")
   {
     x.innerHTML = login;

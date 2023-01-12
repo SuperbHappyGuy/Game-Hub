@@ -122,6 +122,12 @@ a {
   width: 80px;
 }
 
+#construction {
+  height: 600px;
+  width: 800px;
+  margin-left: 40%;
+}
+
 #hamnav2 label {
   display: none;
 }
@@ -164,7 +170,7 @@ a {
 #grid {
   float: left;
   display: grid;
-  background-color: rgb(33, 150, 243);
+  background-color: rgb(160, 160, 160);
   grid-template-columns: 20% 20% 20% 20% 20%;
   padding: 10px;
   padding-top: 100px;
@@ -175,7 +181,8 @@ a {
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 1.0);
-  border: 2px solid rgba(33, 150, 243, 0.8);
+  border: 2px solid rgba(160, 160, 160, 0.8);
+  border-radius: 15%;
   padding: 20px;
   font-size: 30px;
   text-align: center;
