@@ -15,12 +15,11 @@ a {
   position: fixed;
   top: 50px;
   height: 100%;
-  width: 100px;
-  background-color: lightyellow;
-  margin-left: -40px;
+  width: 200px;
+  background-color: rgb(241, 241, 189);
+  margin-left: -48px;
   padding-right: 25px;
   text-align: center;
-  filter: brightness(90%);
 }
 
 #topbar {
@@ -36,7 +35,7 @@ a {
 #main {
   width: 60%;
   height: 150px;
-  margin-left: 125px;
+  margin-left: 225px;
   margin-top: 75px;
 }
 
@@ -79,12 +78,20 @@ a {
 }
 
 .sideBtn {
-  background-color: whitesmoke;
-  border-radius: 15px;
-  border-color: lightgray;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  width: 75px;
+  background-color: rgba(245, 245, 245, 0);
+  border-color: rgba(216, 214, 156, 0.281);
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 141px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+.sideBtn:hover {
+  background-color: rgba(199, 198, 145, 0.589);
 }
 
 #logoTitle {
@@ -164,6 +171,7 @@ a {
   padding-left: 60px;
   margin-left: 32%;
   margin-top: 5%;
+  margin-bottom: 30%;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 1.0);
@@ -213,7 +221,6 @@ a {
   height: 100px;
   width: 50%;
   z-index:99;
-  display: none;
 }
 
 #markerText {
@@ -231,7 +238,6 @@ a {
   height: 100px;
   width: 50%;
   z-index:99;
-  display: none;
 }
 
 #xMarkerText {
