@@ -25,6 +25,15 @@ let {title, excerpt, body, tags} = post;
         <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
         <li><button id= "rockPS" onclick= "navigate(this.id)">Rock Paper Scissors (W.I.P)</button></li>
         <li><button id= "picross" onclick= "navigate(this.id)">Picross Randomizer(W.I.P.)</button></li>
+        <li><button id= "breeding" onclick= "navigate(this.id)">Breeding Game(W.I.P.)</button></li>
+
+        <style type="text/css">
+        .dreamloLBTable { border-collapse:collapse;text-align:center;width: 200px; }
+        .dreamloLBTable th { border-bottom: 1px solid #EEEEEE;font-weight:bold;margin:0;padding:4px; }
+        .dreamloLBTable td { border-bottom: 1px solid#EEEEEE;margin:0;padding:4px; }
+        </style>
+
+        <script src="http://dreamlo.com/lb/63c44c768f40bb08f437072f/js" type="text/javascript"></script>
       </ul>
       `
 let adventureHtml = `
@@ -86,7 +95,7 @@ let picross = `
               <p>Coming Soon!</p>
                 Gird Size: <input id= "input" type="text" name="size">
                 <input id="btn" type="button" onclick="gridStart()" value="Submit"><br>
-              <button id= "Start" onclick= "start()">Start</button>
+              <button id= "Start" onclick= "callAPI()">Start</button>
               </div>
 
               <div id="win"></div>
@@ -124,6 +133,24 @@ let rockPS = `
               </div>
               </div>
               `
+
+let breeding = `
+                <button id="egg" onclick='hatch()'>Hatch</button>
+                <div id="field">
+                    <ul id="pen">
+
+                    </ul>
+                </div>
+
+                <div id="barn">
+                    <div id="breeding" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <button id="hatch" onclick="breeding()">Breed</button>
+                </div>
+
+                <div id="overflow" ondrop="drop(event)" ondragover="allowDrop(event)">Pen</div>
+                <button onclick="compactor()" id="compactor">Compactor</button>
+                <div id="trash" ondrop="drop(event)" ondragover="allowDrop(event)">Trash</div>          
+                `
 function navigate(clicked_id) {
   console.log(clicked_id);
     var x = document.getElementById("main");
@@ -175,6 +202,10 @@ function navigate(clicked_id) {
   if(clicked_id == "rockPS")
   {
     x.innerHTML = rockPS;
+  }
+  if(clicked_id == "breeding")
+  {
+    x.innerHTML = breeding;
   }
 }
 console.log(postHtml);

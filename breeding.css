@@ -1,0 +1,52 @@
+#field {
+    float: left;
+  }
+
+  #barn {
+    position: fixed;
+    margin-left: 50%;
+  }
+
+  #breeding {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+
+  #overflow {
+    margin-top: 20%;
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    padding-bottom: 100%;
+    position:fixed;
+    margin-left: 50%;
+  }
+
+  #egg {
+    float: left;
+    position:fixed;
+    width: 50%;
+  }
+
+  #pen {
+    margin-top: 10%;
+  }
+
+  #trash {
+    position: fixed;
+    width: 275px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-top: 119%;
+    background-color: #ff0000;
+  }
+
+  #compactor {
+    position: fixed;
+    margin-top: 115%;
+    margin-left: -40px;
+  }
