@@ -92,23 +92,14 @@ let picross = `
               </div>
 
               <div>
-              <p>Coming Soon!</p>
                 Gird Size: <input id= "input" type="text" name="size">
                 <input id="btn" type="button" onclick="gridStart()" value="Submit"><br>
-              <button id= "Start" onclick= "callAPI()">Start</button>
               </div>
 
+              <div id="time"></div>
               <div id="win"></div>
 
-              <button id= "marker" onclick="markerFlags()"><h1 id="markerText">Marker</h1></button>
-              <button id= "xMarker" onclick="markerFlags()"><h1 id="xMarkerText">X Marker</h1></button>
-
               <div id="container"></div>
-
-              <div id= "footer">
-              <h5>Brandon Noel 2022</h5>
-              </div>
-              
               `
             
 let rockPS = `
