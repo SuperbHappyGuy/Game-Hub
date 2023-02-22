@@ -9,18 +9,6 @@ let {title, excerpt, body, tags} = post;
 
 //Menu HTML
   let mainHtml = `
-
-      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      
-        <img id= "bird" class="mySlides" src="./Imgs/bird.jpg">
-        <img id= "dog" class="mySlides" src="./Imgs/dog.jpg">
-        <img id= "cat" class="mySlides" src="./Imgs/cat.jpg">
-        <img id= "fish" class="mySlides" src="./Imgs/fish.jpg">
-  
-      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095</button>
-
-        <p>Coming soon</p>
-
         <ul id= "list">
         <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
         <li><button id= "rockPS" onclick= "navigate(this.id)">Rock Paper Scissors (W.I.P)</button></li>
