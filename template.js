@@ -88,6 +88,7 @@ let picross = `
               <div id="win"></div>
 
               <div id="container"></div>
+              <div id="leaderBoard"></div>
               `
             
 let rockPS = `
