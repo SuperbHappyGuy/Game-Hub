@@ -131,7 +131,6 @@ let breeding = `
                 <div id="trash" ondrop="drop(event)" ondragover="allowDrop(event)">Trash</div>          
                 `
 function navigate(clicked_id) {
-  console.log(clicked_id);
     var x = document.getElementById("main");
   if(clicked_id === undefined || clicked_id == "home") {
     x.innerHTML = mainHtml;
@@ -187,4 +186,3 @@ function navigate(clicked_id) {
     x.innerHTML = breeding;
   }
 }
-console.log(postHtml);
