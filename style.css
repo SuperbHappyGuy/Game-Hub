@@ -11,16 +11,6 @@ a {
   text-decoration: none;
 }
 
-#sidebar {
-  position: fixed;
-  top: 50px;
-  height: 100%;
-  width: 200px;
-  background-color: rgb(241, 241, 189);
-  margin-left: -48px;
-  padding-right: 25px;
-  text-align: center;
-}
 
 #topbar {
   position: fixed;
@@ -39,37 +29,11 @@ a {
   margin-top: 75px;
 }
 
-#fish {
-  height: 300px;
-  width: 450px;
-}
-
-#cat {
-  height: 300px;
-  width: 450px;
-}
-
-#dog {
-  height: 300px;
-  width: 450px;
-}
-
-#bird {
-  height: 300px;
-  width: 450px;
-}
 
 #list {
   list-style-type: none;
 }
 
-#settings {
-  height: 50px;
-  width: 50px;
-  margin-left: 95%;
-  float: right;
-  margin-top: -55px;
-}
 
 #logo {
   height: 50px;
@@ -77,22 +41,6 @@ a {
   margin-left: 1%;
 }
 
-.sideBtn {
-  background-color: rgba(245, 245, 245, 0);
-  border-color: rgba(216, 214, 156, 0.281);
-  width: 150px;
-  text-decoration: none;
-  display: inline-block;
-  padding-right: 141px;
-  padding-left: 40px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 24px;
-}
-
-.sideBtn:hover {
-  background-color: rgba(199, 198, 145, 0.589);
-}
 
 #logoTitle {
   float: left;
@@ -104,67 +52,11 @@ a {
   border-radius: 5px;
 }
 
-#search {
-  margin-left: 25%;
-  margin-top: -45px;
-  float: left;
-  height: 60%;
-  width: 25%;
-}
-
-#login {
-  float: right;
-  margin-top: -45px;
-  margin-right: 75px;
-  background-color: whitesmoke;
-  border-radius: 15px;
-  border-color: lightgray;
-  width: 80px;
-}
-
-#construction {
-  height: 600px;
-  width: 800px;
-  margin-left: 40%;
-}
-
-#hamnav2 label {
-  display: none;
-}
-
-#hamburger {
-  display: none;
-}
 
 @media (width <= 800px) {
-  #search {
-    display: none;
-  }
-
-  #sidebar {
-    display: none;
-  }
-
   #logoTitle {
     margin-left: 35%;
   }
-
-  #login {
-    display: none;
-  }
-
-  #hamnav label { 
-    margin-top: 50px;
-    display: inline-block; 
-    color: yellow;
-    background: black;
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 10px;
-  }
-
-  #hamnav input:checked ~ #sidebar { display: block; }
-  #sidebar ~ #hamnav2 input:checked { display: none; }
 }
 
 #grid {

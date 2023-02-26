@@ -1,6 +1,3 @@
-[submodule "Rock-Paper-Scissor"]
-	path = Rock-Paper-Scissor
-	url = https://github.com/SuperbHappyGuy/Rock-Paper-Scissor.git
 [submodule "Picross-Game"]
 	path = Picross-Game
 	url = https://github.com/SuperbHappyGuy/Picross-Game.git
