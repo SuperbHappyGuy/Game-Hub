@@ -23,10 +23,9 @@ a {
 }
 
 #main {
-  width: 60%;
   height: 150px;
-  margin-left: 225px;
-  margin-top: 75px;
+  margin: auto;
+  width: 50%;
 }
 
 
