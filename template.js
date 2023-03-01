@@ -2,7 +2,7 @@
   let mainHtml = `
         <ul id= "list">
         <li><a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a></li>
-        <li><button id= "picross" onclick= "navigate(this.id)">Picross Randomizer(W.I.P.)</button></li>
+        <img src= "./Imgs/nonogram.png" id= "picross" onclick= "navigate(this.id)">
       </ul>
       `
 
@@ -20,7 +20,7 @@ let picross = `
               <div id="time"></div>
               <div id="win"></div>
 
-              <div id="container"></div>
+              <div id="container" onmousedown="return false" onselectstart="return false"></div>
               <div id="leaderBoard"></div>
               `
 
