@@ -11,7 +11,6 @@ a {
   text-decoration: none;
 }
 
-
 #topbar {
   position: fixed;
   top: 0;
@@ -27,12 +26,6 @@ a {
   margin: auto;
   width: 50%;
 }
-
-
-#list {
-  list-style-type: none;
-}
-
 
 #logo {
   height: 50px;
@@ -51,6 +44,15 @@ a {
   border-radius: 5px;
 }
 
+#picross {
+  border-radius: 15%;
+  height: 400px;
+  width: 400px;
+}
+
+#picross:hover {
+  border: 7px solid rgb(0, 225, 255);
+}
 
 @media (width <= 800px) {
   #logoTitle {
@@ -67,7 +69,7 @@ a {
   padding-top: 100px;
   padding-left: 60px;
   margin-left: 32%;
-  margin-top: 5%;
+  margin-top: 25%;
   margin-bottom: 30%;
 }
 .grid-item {
@@ -80,9 +82,6 @@ a {
   position: relative;
   width: 50px;
   height: 50px;
-}
-.gridNumb {
-  display: none;
 }
 
 .popover {
@@ -125,4 +124,8 @@ a {
 #time {
   font-size: 200%;
   margin-left: 45%;
+}
+
+#column2a {
+  top: -201px;
 }
