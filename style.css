@@ -85,11 +85,12 @@ a {
 }
 
 .popover {
-  background-color: rgb(240, 230, 142);
+  background-color: rgb(24, 24, 24);
   border: 2px solid rgba(160, 160, 160, 0.8);
+  color: white;
   border-radius: 15%;
   padding: 20px;
-  font-size: 30px;
+  font-size: 50px;
   position: absolute;
   width: 50px;
   height: 50px;
@@ -99,11 +100,12 @@ a {
 }
 
 .popoverSide {
-  background-color: rgb(240, 230, 142);
+  background-color: rgb(24, 24, 24);
   border: 2px solid rgba(160, 160, 160, 0.8);
+  color: white;
   border-radius: 15%;
   padding: 20px;
-  font-size: 30px;
+  font-size: 50px;
   position: absolute;
   width: 50px;
   height: 50px;
@@ -124,8 +126,4 @@ a {
 #time {
   font-size: 200%;
   margin-left: 45%;
-}
-
-#column2a {
-  top: -201px;
 }
