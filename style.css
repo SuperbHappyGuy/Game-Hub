@@ -23,7 +23,6 @@ a {
 }
 
 #main {
-  height: 150px;
   margin: auto;
   width: 50%;
 }
@@ -61,20 +60,74 @@ a {
   }
 }
 
-#container {
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropDownOptions {
+  border: none;
+  width: 100%;
+  padding-bottom: 3px;
+  font-size: 26px;
+}
+
+.dropDownOptions:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+  background-color: rgba(204, 204, 204,0.9);
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 #grid {
   float: left;
   display: grid;
   background-color: rgb(160, 160, 160);
   grid-template-columns: 20% 20% 20% 20% 20%;
+  border-radius: 15%;
   padding: 10px;
-  padding-top: 100px;
-  padding-left: 60px;
-  margin-left: 32%;
-  margin-top: 25%;
-  margin-bottom: 30%;
+  padding-top: 500px;
+  padding-left: 500px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  margin-left: -15%;
+  margin-top: -20%;
+  transform:scale(0.5);
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 1.0);
@@ -130,4 +183,11 @@ a {
 #time {
   font-size: 200%;
   margin-left: 45%;
+}
+
+#leaderBoard {
+  float: right;
+  margin-top: -90%;
+  margin-right: -12%;
+  background-color: white;
 }
