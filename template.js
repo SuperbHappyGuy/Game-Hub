@@ -39,7 +39,10 @@ let picross = `
               <div id="win"></div>
 
               <div id="container" onmousedown="return false" onselectstart="return false"></div>
-              <div id="leaderBoard"></div>
+
+              <nav id="table">
+                <ul id="leaderBoard"></ul>
+              </nav>
               `
 
 function navigate(clicked_id) {

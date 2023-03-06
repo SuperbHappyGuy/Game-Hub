@@ -190,4 +190,13 @@ a {
   margin-top: -90%;
   margin-right: -12%;
   background-color: white;
+  list-style: none;
+  font-size: 20px;
 }
+
+#table {
+  
+}
+
+nav ul{height:200px; width:21%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
