@@ -1,6 +1,5 @@
 //Menu HTML
   let mainHtml = `
-        <a href= "https://github.com/SuperbHappyGuy/RPG-Text-Game">RPG Text Game (W.I.P.)</a>
         <img id="picross" src= "./Imgs/nonogram.png" id= "picross" onclick= "navigate(this.id)">
       `
 
