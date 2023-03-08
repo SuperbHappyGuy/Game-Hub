@@ -1,6 +1,14 @@
 //Menu HTML
   let mainHtml = `
-        <img id="picross" src= "./Imgs/nonogram.png" id= "picross" onclick= "navigate(this.id)">
+        <div>
+          <div id="picross">
+            <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id)">
+            <h1>Picross</h1>
+          </div>
+          <div id= "otherGames">
+            <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" onclick= "navigate(this.id)">
+          </div>
+        </div>  
       `
 
 //Game HTML
@@ -44,15 +52,26 @@ let picross = `
               </nav>
               `
 
+let otherGames = `
+                <img src= "./Imgs/other people's games.png" id= "otherGamesImgs">
+                <div>
+                <iframe src='https://www.bubblebox.com/html5/embed/diggy2/' width='500' height='650' frameborder='0' scrolling='no' marginwidth='0' marginheight='0'></iframe>
+                `
+
 function navigate(clicked_id) {
     var x = document.getElementById("main");
   if(clicked_id === undefined || clicked_id == "home") {
     x.innerHTML = mainHtml;
   }
 
-  if(clicked_id == "picross")
+  if(clicked_id == "picrossImg")
   {
     x.innerHTML = picross;
     //gridStart(5);
+  }
+
+  if(clicked_id == "otherGamesImgs")
+  {
+    x.innerHTML = otherGames;
   }
 }
