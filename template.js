@@ -2,8 +2,36 @@
   let mainHtml = `
         <div>
           <div id="picross">
-            <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id)">
-            <h1>Picross</h1>
+            <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
+
+            <h1>Picross
+
+              <span class="dropdown">
+                <button class="dropbtn">Puzzle Size</button>
+                <div class="dropdown-content">
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(2)" class="dropDownOptions">2x2</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(3)" class="dropDownOptions">3x3</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(4)" class="dropDownOptions">4x4</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(5)" class="dropDownOptions">5x5</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(6)" class="dropDownOptions">6x6</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(7)" class="dropDownOptions">7x7</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(8)" class="dropDownOptions">8x8</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(9)" class="dropDownOptions">9x9</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(10)" class="dropDownOptions">10x10</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(11)" class="dropDownOptions">11x11</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(12)" class="dropDownOptions">12x12</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(13)" class="dropDownOptions">13x13</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(14)" class="dropDownOptions">14x14</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(15)" class="dropDownOptions">15x15</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(16)" class="dropDownOptions">16x16</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(17)" class="dropDownOptions">17x17</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(18)" class="dropDownOptions">18x18</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(19)" class="dropDownOptions">19x19</button>
+                  <button id="picrossStart" onclick="navigate(this.id); gridStart(20)" class="dropDownOptions">20x20</button>
+                </div>
+              </span>
+            </h1>
+            
           </div>
           <div id= "otherGames">
             <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" onclick= "navigate(this.id)">
@@ -17,34 +45,9 @@ let picross = `
               <h1>Picross</h1>
               </div>
 
-              <div class="dropdown">
-                <button class="dropbtn">Puzzle Size</button>
-                <div class="dropdown-content">
-                  <button onclick="gridStart(2)" class="dropDownOptions">2x2</button>
-                  <button onclick="gridStart(3)" class="dropDownOptions">3x3</button>
-                  <button onclick="gridStart(4)" class="dropDownOptions">4x4</button>
-                  <button onclick="gridStart(5)" class="dropDownOptions">5x5</button>
-                  <button onclick="gridStart(6)" class="dropDownOptions">6x6</button>
-                  <button onclick="gridStart(7)" class="dropDownOptions">7x7</button>
-                  <button onclick="gridStart(8)" class="dropDownOptions">8x8</button>
-                  <button onclick="gridStart(9)" class="dropDownOptions">9x9</button>
-                  <button onclick="gridStart(10)" class="dropDownOptions">10x10</button>
-                  <button onclick="gridStart(11)" class="dropDownOptions">11x11</button>
-                  <button onclick="gridStart(12)" class="dropDownOptions">12x12</button>
-                  <button onclick="gridStart(13)" class="dropDownOptions">13x13</button>
-                  <button onclick="gridStart(14)" class="dropDownOptions">14x14</button>
-                  <button onclick="gridStart(15)" class="dropDownOptions">15x15</button>
-                  <button onclick="gridStart(16)" class="dropDownOptions">16x16</button>
-                  <button onclick="gridStart(17)" class="dropDownOptions">17x17</button>
-                  <button onclick="gridStart(18)" class="dropDownOptions">18x18</button>
-                  <button onclick="gridStart(19)" class="dropDownOptions">19x19</button>
-                  <button onclick="gridStart(20)" class="dropDownOptions">20x20</button>
-                </div>
-              </div>
-
               <div id="time"></div>
               <div id="win"></div>
-
+              
               <div id="container" onmousedown="return false" onselectstart="return false"></div>
 
               <nav id="table">
@@ -64,10 +67,9 @@ function navigate(clicked_id) {
     x.innerHTML = mainHtml;
   }
 
-  if(clicked_id == "picrossImg")
+  if(clicked_id == "picrossImg" || clicked_id == "picrossStart")
   {
     x.innerHTML = picross;
-    //gridStart(5);
   }
 
   if(clicked_id == "otherGamesImgs")
