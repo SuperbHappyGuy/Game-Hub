@@ -53,8 +53,12 @@ let picross = `
               `
 
 let otherGames = `
-                <iframe src='https://www.bubblebox.com/html5/embed/diggy2/' width='500' height='650' frameborder='0' scrolling='no' marginwidth='0' marginheight='0'></iframe>
+                <iframe id="digGame" src='https://www.bubblebox.com/html5/embed/diggy2/' width='600' height='750' frameborder='0' scrolling='no' marginwidth='0' marginheight='0'></iframe>
                 `
+
+let ballGame = `
+
+              `
 
 function navigate(clicked_id) {
     var x = document.getElementById("main");
@@ -70,5 +74,10 @@ function navigate(clicked_id) {
   if(clicked_id == "otherGames")
   {
     x.innerHTML = otherGames;
+  }
+
+  if(clicked_id == "ballGame")
+  {
+    x.innerHTML = ballGame;
   }
 }
