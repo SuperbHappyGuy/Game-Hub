@@ -2,10 +2,12 @@
   let mainHtml = `
             <span id="picross">
               <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
-            </span>
-            <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" onclick= "navigate(this.id)">
+              <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
+              <span id="otherGames" onclick= "navigate(this.id)">
+                <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" >
+              </span>
 
-            <h1>Picross
+              <h1 id="puzzleSize">Picross
 
               <div class="dropdown">
                 <button class="dropbtn">Puzzle Size</button>
@@ -32,14 +34,18 @@
                 </div>
               </div>
             </h1>
+
+
+            </span>
+
       `
 
 //Game HTML
 let picross = `
-              <div id="time"></div>
-              <div id="win"></div>
+              <span id="win"></span>
               
-              <div id="container" onmousedown="return false" onselectstart="return false"></div>
+              <span id="container" onmousedown="return false" onselectstart="return false"></span>
+              <div id="time"></div>
 
               <nav id="table">
                 <ul id="leaderBoard"></ul>
@@ -47,8 +53,6 @@ let picross = `
               `
 
 let otherGames = `
-                <img src= "./Imgs/other people's games.png" id= "otherGamesImgs">
-                <div>
                 <iframe src='https://www.bubblebox.com/html5/embed/diggy2/' width='500' height='650' frameborder='0' scrolling='no' marginwidth='0' marginheight='0'></iframe>
                 `
 
@@ -63,7 +67,7 @@ function navigate(clicked_id) {
     x.innerHTML = picross;
   }
 
-  if(clicked_id == "otherGamesImgs")
+  if(clicked_id == "otherGames")
   {
     x.innerHTML = otherGames;
   }

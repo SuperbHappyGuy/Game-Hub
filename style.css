@@ -31,6 +31,7 @@ a {
   background-color: #fdc029;
   color: #171820;
   text-align: left;
+  margin: auto;
 }
 
 #main {
@@ -48,13 +49,17 @@ a {
   padding-left: 5%;
 }
 
-#otherGames {
+#otherGamesImgs {
+  height: 298px;
+  width: 299px;
+  border-radius: 15%;
+  margin-left: 8%;
+  margin-top: 12%;
+  background-image: linear-gradient(to bottom, rgb(188, 182, 174), #171820);
+  border-right: 7px solid #171820;
 }
 
 #picross {
-  height: 100%;
-  width: 100%;
-  text-align: center;
 }
 
 #picross:hover {
@@ -62,11 +67,16 @@ a {
 }
 
 #picrossImg {
+  margin-left: 8%;
   border-radius: 15%;
 }
 
 #picrossImg:hover {
   border: 7px solid #aa3d01;
+}
+
+#puzzleSize {
+  margin-left: 11%;
 }
 
 @media (width <= 800px) {
@@ -187,26 +197,21 @@ a {
 }
 
 #win{
-  margin-left: 45%;
 }
 
 #time {
   font-size: 200%;
-  margin-left: 45%;
   color: #171820;
 }
 
 #leaderBoard {
-  float: right;
-  margin-top: -90%;
-  margin-right: -12%;
   background-color: #bcb6ae;
   list-style: none;
   font-size: 20px;
 }
 
 #table {
-  color: rgb(170, 61, 1)
+  color: #171820;
 }
 
 nav ul{height:200px; width:21%;}
