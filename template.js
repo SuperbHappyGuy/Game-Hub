@@ -1,12 +1,13 @@
 //Menu HTML
   let mainHtml = `
-        <div>
-          <div id="picross">
-            <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
+            <span id="picross">
+              <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
+            </span>
+            <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" onclick= "navigate(this.id)">
 
             <h1>Picross
 
-              <span class="dropdown">
+              <div class="dropdown">
                 <button class="dropbtn">Puzzle Size</button>
                 <div class="dropdown-content">
                   <button id="picrossStart" onclick="navigate(this.id); gridStart(2)" class="dropDownOptions">2x2</button>
@@ -29,22 +30,12 @@
                   <button id="picrossStart" onclick="navigate(this.id); gridStart(19)" class="dropDownOptions">19x19</button>
                   <button id="picrossStart" onclick="navigate(this.id); gridStart(20)" class="dropDownOptions">20x20</button>
                 </div>
-              </span>
+              </div>
             </h1>
-            
-          </div>
-          <div id= "otherGames">
-            <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" onclick= "navigate(this.id)">
-          </div>
-        </div>  
       `
 
 //Game HTML
 let picross = `
-              <div id= "header">
-              <h1>Picross</h1>
-              </div>
-
               <div id="time"></div>
               <div id="win"></div>
               
