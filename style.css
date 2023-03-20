@@ -53,8 +53,6 @@ a {
   height: 298px;
   width: 299px;
   border-radius: 15%;
-  margin-left: 14%;
-  margin-top: 12%;
   background-image: linear-gradient(to bottom, rgb(188, 182, 174), #171820);
   border-right: 7px solid #171820;
 }
@@ -71,7 +69,6 @@ a {
 }
 
 #picrossImg {
-  margin-left: 14%;
   border-radius: 15%;
 }
 
@@ -83,9 +80,32 @@ a {
   margin-left: 16%;
 }
 
+.gameApp {
+  margin-left: 14%;
+  margin-top: 12%;
+}
+
 @media (width <= 800px) {
   #logoTitle {
     margin-left: 35%;
+    margin: auto;
+  }
+
+  .gameApp {
+    transform: scale(0.5);
+    margin-left: 0%;
+    margin-top: -40%;
+  }
+
+  #picrossImg {
+    margin-top: -20%;
+    margin-bottom: 5%;
+  }
+
+  #puzzleSize {
+    transform: scale(0.5);
+    margin-top: -157%;
+    margin-left: 10%;
   }
 }
 
@@ -120,7 +140,6 @@ a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  
 }
 
 .dropDownOptions {
@@ -128,7 +147,6 @@ a {
   width: 100%;
   padding-bottom: 3px;
   font-size: 26px;
-  
 }
 
 .dropDownOptions:hover {
@@ -139,7 +157,6 @@ a {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #bcb6ae;
-  
 }
 
 /* Show the dropdown menu on hover */
@@ -153,7 +170,6 @@ a {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #df861d;
-  
 }
 
 #container {

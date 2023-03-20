@@ -1,10 +1,10 @@
 //Menu HTML
   let mainHtml = `
             <span id="picross">
-              <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
-              <img id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
+              <img class="gameApp" id="picrossImg" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
+              <img class="gameApp" id="picrossImg2" src= "./Imgs/nonogram.png" onclick= "navigate(this.id); gridStart(5)">
               <span id="otherGames" onclick= "navigate(this.id)">
-                <img src= "./Imgs/other people's games.png" id= "otherGamesImgs" >
+                <img class="gameApp" src= "./Imgs/other people's games.png" id= "otherGamesImgs" >
               </span>
 
               <h1 id="puzzleSize">Picross
