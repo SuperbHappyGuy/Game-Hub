@@ -107,6 +107,11 @@ a {
     margin-top: -120%;
     margin-left: 10%;
   }
+
+  #grid {
+    margin-top: 50%;
+    margin-left: 28%;
+  }
 }
 
 /* Dropdown Button */
