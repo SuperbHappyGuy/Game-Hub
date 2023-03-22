@@ -42,10 +42,10 @@
 
 //Game HTML
 let picross = `
+              <div id="time"></div>
               <span id="win"></span>
               
               <span id="container" onmousedown="return false" onselectstart="return false"></span>
-              <div id="time"></div>
               `
 
 let otherGames = `
