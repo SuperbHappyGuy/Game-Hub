@@ -47,9 +47,9 @@ let picross = `
               <span id="container" onmousedown="return false" onselectstart="return false"></span>
               <div id="time"></div>
 
-              <nav id="table">
-                <ul id="leaderBoard"></ul>
-              </nav>
+                <nav id="table">
+                  <ul id="leaderBoard"></ul>
+                </nav>
               `
 
 let otherGames = `
