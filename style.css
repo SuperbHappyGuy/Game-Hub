@@ -173,9 +173,6 @@ a {
 }
 
 #container {
-  margin: auto;
-  width: 50%;
-  height: 50%;
 }
 
 #grid {
@@ -185,6 +182,8 @@ a {
   border-radius: 15%;
   padding-right: 100px;
   padding-bottom: 100px;
+  margin-left: 35%;
+  margin-top: 10%;
 }
 .grid-item {
   background-color: rgb(255, 255, 255);
@@ -234,6 +233,7 @@ a {
 #time {
   font-size: 200%;
   color: #171820;
+  display: none;
 }
 
 #leaderBoard {
@@ -244,6 +244,7 @@ a {
 
 #table {
   color: #171820;
+  display: none;
 }
 
 nav ul{height:200px; width:21%;}
