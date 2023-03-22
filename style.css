@@ -108,7 +108,9 @@ a {
     margin-left: 10%;
   }
 
-  nav ul{height:200px; width:45%;}
+  #table {
+    width:45%;
+  }
 }
 
 /* Dropdown Button */
