@@ -104,7 +104,7 @@ a {
 
   #puzzleSize {
     transform: scale(0.5);
-    margin-top: -125%;
+    margin-top: -120%;
     margin-left: 10%;
   }
 }
