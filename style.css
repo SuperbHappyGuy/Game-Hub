@@ -233,7 +233,6 @@ a {
 #time {
   font-size: 200%;
   color: #171820;
-  display: none;
 }
 
 #leaderBoard {
@@ -244,7 +243,6 @@ a {
 
 #table {
   color: #171820;
-  display: none;
 }
 
 nav ul{height:200px; width:21%;}
