@@ -86,6 +86,10 @@ a {
 }
 
 @media (width <= 800px) {
+  html, body {
+    overscroll-behavior-y: contain;
+  }
+
   #logoTitle {
     margin-left: 35%;
     margin: auto;
