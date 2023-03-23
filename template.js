@@ -69,12 +69,6 @@ let rules = `
                 <p>-Tap or drag your finger on cells to color in the grid<br>
                 -Hold the blank top left area of the grid with one finger and tap a cell with another finger to mark an X in a cell
                 </p>
-                <h3>Bugs:</h3>
-                <ul>
-                  <li>Dragging on mobile is very unreliable</li>
-                  <li>Dragging to finish a puzzle will not trigger the win condition</li>
-                  <li>Sometimes a X marker will appear on top of a colored cell</li>
-                </ul>
               </div>
             `
 
