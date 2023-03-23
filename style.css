@@ -8,6 +8,10 @@ html, body {
   overscroll-behavior-y: contain;
 }
 
+#link {
+  color: #aa3d01;
+}
+
 footer {
   background-color: #171820;
   text-align: center;
@@ -110,6 +114,22 @@ a {
 
   #leaderBoard {
     width:60%;
+  }
+
+  #rules {
+    margin-top: 90%;
+    text-align: center;
+    font-size: 200%;
+  }
+
+  #help {
+    background-color: #bcb6ae;
+    border-radius: 15%;
+    font-size: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 }
 

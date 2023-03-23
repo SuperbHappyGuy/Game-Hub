@@ -34,10 +34,7 @@
                 </div>
               </div>
             </h1>
-
-
-            </span>
-
+          </span>
       `
 
 //Game HTML
@@ -46,6 +43,8 @@ let picross = `
               <span id="win"></span>
               
               <span id="container" onmousedown="return false" onselectstart="return false"></span>
+              <div id="rules" onclick="navigate(this.id)">How to Play</div>
+
               `
 
 let otherGames = `
@@ -55,6 +54,29 @@ let otherGames = `
 let ballGame = `
 
               `
+
+let rules = `
+              <div id="help">
+                <h3>Rules:</h3>
+                <p>You can learn how to play <a id="link" href="https://www.hanjie-star.com/en-us/how-to-solve-picross/solve-first-picross-puzzle">Here</a></p>
+                <h3>Controls:</h3>
+                <h4>PC:</h4>
+                <p>-Color in the cells of the grid with the left mouse button<br>
+                -Mark an X in cells you want empty with the right mouse button<br>
+                *Drag the mouse with these controls to do an action continuously
+                </p>
+                <h4>Mobile:</h4>
+                <p>-Tap or drag your finger on cells to color in the grid<br>
+                -Hold the blank top left area of the grid with one finger and tap a cell with another finger to mark an X in a cell
+                </p>
+                <h3>Bugs:</h3>
+                <ul>
+                  <li>Dragging on mobile is very unreliable</li>
+                  <li>Dragging to finish a puzzle will not trigger the win condition</li>
+                  <li>Sometimes a X marker will appear on top of a colored cell</li>
+                </ul>
+              </div>
+            `
 
 function navigate(clicked_id) {
     var x = document.getElementById("main");
@@ -75,5 +97,10 @@ function navigate(clicked_id) {
   if(clicked_id == "ballGame")
   {
     x.innerHTML = ballGame;
+  }
+
+  if(clicked_id == "rules")
+  {
+    x.innerHTML = rules;
   }
 }
