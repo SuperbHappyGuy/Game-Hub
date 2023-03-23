@@ -48,7 +48,7 @@ let picross = `
               `
 
 let otherGames = `
-                <iframe id="digGame" src='https://www.bubblebox.com/html5/embed/diggy2/' width='600' height='750' frameborder='0' scrolling='no' marginwidth='0' marginheight='0'></iframe>
+                <iframe seamless="seamless" allowtransparency="true" allowfullscreen="true" frameborder="0" style="width: 100%;height: 100%;border: 0px;" src="https://zv1y2i8p.play.gamezop.com/g/hfPOimYqY"> </iframe>
                 `
 
 let ballGame = `
