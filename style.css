@@ -131,6 +131,17 @@ a {
     padding-top: 3%;
     padding-bottom: 3%;
   }
+
+  #time {
+    font-size: 200%;
+    color: #171820;
+    text-align: center;
+    background-color: #bcb6ae;
+    border-radius: 10%;
+    padding: 10px;
+    width: 25%;
+    margin: auto;
+  }
 }
 
 /* Dropdown Button */
@@ -207,7 +218,7 @@ a {
   padding-right: 100px;
   padding-bottom: 100px;
   margin-left: 35%;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .grid-item {
   background-color: rgb(255, 255, 255);
@@ -259,17 +270,21 @@ a {
   font-size: 200%;
   color: #171820;
   text-align: center;
-  background-color: #bcb6ae;
+  background-color: white;
+  border: 7px solid #bcb6ae;
   border-radius: 10%;
   padding: 10px;
-  width: 25%;
-  margin: auto;
+  width: 10%;
+  margin-left: 15%;
+  margin-top: 1%;
 }
 
 #leaderBoard {
-  background-color: #bcb6ae;
+  background-color: white;
   list-style: none;
   font-size: 20px;
+  border: 7px solid #bcb6ae;
+  border-radius: 15%;
 }
 
 #table {
@@ -279,7 +294,29 @@ a {
 nav ul{height:200px; width:21%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
 
-#digGame {
-  margin-left: 35%;
-  margin-top: 2%;
+#rules {
+  margin-top: 40%;
+  font-size: 200%;
+  margin-left: 15%;
+  background-color: #aa3d01;
+  color: #bcb6ae;
+  padding: 16px;
+  margin-right: 76%;
+  font-size: 16px;
+  border: none;
+}
+
+#rules:hover {
+  background-color: #df861d;
+  color: white;
+}
+
+#help {
+  background-color: #bcb6ae;
+  border-radius: 15%;
+  font-size: 160%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
