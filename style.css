@@ -161,8 +161,10 @@ a {
     background-color: #aa3d01;
     color: #bcb6ae;
     margin-right: 76%;
+    padding: 16px;
     font-size: 16px;
     border: none;
+    transform: scale(1.5);
   }
 
   #time {
