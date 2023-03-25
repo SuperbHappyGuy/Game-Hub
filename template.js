@@ -44,6 +44,7 @@ let picross = `
               
               <span id="container" onmousedown="return false" onselectstart="return false"></span>
               <div id="rules" onclick="navigate(this.id)">How to Play</div>
+
               `
 
 let otherGames = `
