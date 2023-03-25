@@ -13,4 +13,10 @@
 ### Merge Mainia
 <p>Merge Mainia is a game inspired by the game 2048. You choose what column to add a number to while the screen gets pushed to the bottom. If the numbers touch the bottom of the screen it's game over so start merging numbers to prevent game over. <br> This is a webgl game that isn't my work and is embeded from https://business.gamezop.com/html5-games and is intended to add more content to the website while games of my own are being developed.</p>
 
+## Current To Do's
+<ul>
+  <li>Add webgl game of my own</li>
+  <li>Add more webgl games</li>
+</ul>
+
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=SuperbHappyGuy.visitor-badge)
