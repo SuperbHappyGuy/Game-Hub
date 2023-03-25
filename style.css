@@ -5,7 +5,6 @@ html, body {
   margin: auto;
   background-image: linear-gradient(to top, rgba(188, 182, 174, 0.6), #171820),
   url("./Imgs/Stream bg2.jpeg");
-  overscroll-behavior-y: contain;
 }
 
 #link {
