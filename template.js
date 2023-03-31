@@ -41,7 +41,7 @@
 let picross = `
               <div id="time"></div>
               <span id="win"></span>
-              
+
               <span id="container" onmousedown="return false" onselectstart="return false"></span>
               <div id="rules" onclick="navigate(this.id)">How to Play</div>
 
@@ -66,8 +66,7 @@ let rules = `
                 *Drag the mouse with these controls to do an action continuously
                 </p>
                 <h4>Mobile:</h4>
-                <p>-Tap or drag your finger on cells to color in the grid<br>
-                -Hold the blank top left area of the grid with one finger and tap a cell with another finger to mark an X in a cell
+                <p>-Tap on cells to toggle between a colored cell, an X cell, or an empty cell in the grid<br>
                 </p>
               </div>
             `
