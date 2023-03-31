@@ -67,7 +67,7 @@ let rules = `
                 </p>
                 <h4>Mobile:</h4>
                 <p>-Tap your finger on cells to color in the grid<br>
-                -Hold the blank top left area of the grid with one finger and tap a cell with another finger to mark an X in a cell
+                -Hold one finger off the grid and tap a cell with another finger to mark an X in a cell
                 </p>
               </div>
             `
