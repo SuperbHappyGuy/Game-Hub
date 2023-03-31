@@ -8,9 +8,13 @@
 </ul>
 
 ### Picross
+![picross](https://user-images.githubusercontent.com/29354749/229246680-09f4bb09-83c9-4641-8991-adc1c2587cc3.jpg)
+
 <p>Picross is a logic puzzle game where you follow hint numbers to fill a grid to complete a puzzle. You can check out the source code here: https://github.com/SuperbHappyGuy/Picross-Game</p>
 
 ### Merge Mainia
+![merge mainia](https://user-images.githubusercontent.com/29354749/229246683-a3e72625-8444-4e29-86d7-b53444dbf50e.jpg)
+
 <p>Merge Mainia is a game inspired by the game 2048. You choose what column to add a number to while the screen gets pushed to the bottom. If the numbers touch the bottom of the screen it's game over so start merging numbers to prevent game over. <br> This is a webgl game that isn't my work and is embeded from https://business.gamezop.com/html5-games and is intended to add more content to the website while games of my own are being developed.</p>
 
 ## Current To Do's
