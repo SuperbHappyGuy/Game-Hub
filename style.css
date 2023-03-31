@@ -64,9 +64,6 @@ a {
   border: 7px solid #aa3d01;
 }
 
-#picross {
-}
-
 #picross:hover {
   color: #aa3d01;
 }
@@ -251,9 +248,6 @@ a {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #df861d;
-}
-
-#container {
 }
 
 #grid {
